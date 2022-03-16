@@ -1,20 +1,20 @@
 {
-  "name": "test",
+  "name": "messenger-project",
   "version": "1.0.0",
-  "main": "index.js",
-  "description": "",
-  "scripts": {
-    "dev": "parcel index.hbs",
-    "build": "parcel build index.hbs"
+  "engines" : {
+    "node" : "=16.5.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "parcel src/views/index.hbs --port 3000 --no-cache",
+    "build": "parcel build src/views/index.hbs"
+  },
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
-    "parcel": "^2.3.2"
-  },
-  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "parcel": "^2.3.2",
+    "parcel-plugin-handlebars": "^0.4.4",
     "prettier": "^2.5.1"
   }
 }

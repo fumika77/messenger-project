@@ -1,0 +1,50 @@
+---
+name: Арчибальд
+first_name: Арчибальд
+second_name: Котиков
+login: archi
+email: kotikoff@kotomail.ru
+phone: 88888888
+---
+<html lang="en">
+<head>
+    <title>User Description</title>
+    <link rel="stylesheet" type="text/css" href="profileDescription.css"/>
+</head>
+<body>
+<div class="profileDescription__box">
+    <a class="profileDescription__arrowLink" href="../dialogs/dialogs.hbs">
+       <img class="profileDescription__arrowImg" src="../../../static/img/arrow-left-square---filled(40x40)@1x.png">
+    </a>
+    <img class="profileDescription__profileImg" src="../../../static/img/animals.png">
+    <h1 class="profileDescription__header">{{name}}</h1>
+    <div class="profileDescription__formData">
+        <div class="profileDescription__inputWrapper">
+            <label class="profileDescription__inputLabel" for="firstName">Имя</label>
+            <input class="profileDescription__input" type="text" size="40" id="firstName" value={{first_name}} disabled/>
+        </div>
+        <div class="profileDescription__inputWrapper">
+            <label class="profileDescription__inputLabel" for="lastName">Фамилия</label>
+            <input class="profileDescription__input" type="text" size="40" id="lastName" value={{second_name}} disabled/>
+        </div>
+        <div class="profileDescription__inputWrapper">
+            <label class="profileDescription__inputLabel" for="login">Логин</label>
+            <input class="profileDescription__input" type="text" size="40" id="login" value={{login}} disabled/>
+        </div>
+        <div class="profileDescription__inputWrapper">
+            <label class="profileDescription__inputLabel" for="mailBox">Почта</label>
+            <input class="profileDescription__input" type="text" size="40" id="mailBox" value={{email}} disabled/>
+        </div>
+        <div class="profileDescription__inputWrapper">
+            <label class="profileDescription__inputLabel" for="phone">Телефон</label>
+            <input class="profileDescription__input" type="number" size="40" id="phone" value={{phone}} disabled/>
+        </div>
+
+    </div>
+    <div class="profileDescription__linkBox">
+        <a href="../profileSettings/profileSetting.hbs">Изменить данные</a>
+        <a href="">Изменить пароль</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.text {
+        font-family: 'RobotoFlex', serif;
+        font-style: normal;
+        font-weight: 400;
+    text-align: center;
+}
+
+.errorBox{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.errorHeader {
+    font-size: 60px;
+    line-height: 70px;
+    margin:0;
+    top: 30%;
+}
+
+.errorDescription {
+    font-size: 50px;
+    line-height: 70px;
+    margin:0;
+}
+
+.errorAction {
+    color: #957CFF;
+    font-size: 20px;
+}

@@ -1,0 +1,51 @@
+.input {
+        width: 232px;
+        height: 40px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #000000;
+}
+
+.input::placeholder{
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /*color: #A4A4A4;*/
+    bottom: 2px;
+}
+
+.label{
+    position: absolute;
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.button{
+    width: 176px;
+    height: 38px;
+    background: #C4B6FF;
+    border-radius: 12px;
+    border: none;
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+.textLink{
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    align-content: center;
+    border-bottom: none;
+    text-decoration: none;
+}

@@ -1,0 +1,49 @@
+---
+name: Арчибальд
+first_name: Арчибальд
+second_name: Котиков
+login: archi
+email: kotikoff@kotomail.ru
+phone: 88888888
+---
+<html lang="en">
+<head>
+    <title>Profile Settings</title>
+    <link rel="stylesheet" type="text/css" href="./profileSettings.css"/>
+</head>
+<body>
+<div class="profileSettings__box">
+    <a class="profileSettings__arrowLink" href="../profileDescription/profileDescription.hbs">
+        <img class="profileSettings__arrowImg" src="../../../static/img/arrow-left-square---filled(40x40)@1x.png">
+    </a>
+    <img class="profileSettings__profileImg" src="../../../static/img/animals.png">
+    <img class="profileSettings__editImg" src="../../../static/img/image-edit(40x40)@1x.png">
+    <h1 class="profileSettings__header">{{name}}</h1>
+    <div class="profileSettings__formData">
+        <div class="profileSettings__inputWrapper">
+            <label class="profileSettings__inputLabel" for="firstName">Имя</label>
+            <input class="profileSettings__input" type="text" size="40" id="firstName" value={{first_name}}/>
+        </div>
+        <div class="profileSettings__inputWrapper">
+            <label class="profileSettings__inputLabel" for="lastName">Фамилия</label>
+            <input class="profileSettings__input" type="text" size="40" id="lastName" value={{second_name}}/>
+        </div>
+        <div class="profileSettings__inputWrapper">
+            <label class="profileSettings__inputLabel" for="login">Логин</label>
+            <input class="profileSettings__input" type="text" size="40" id="login" value={{login}}/>
+        </div>
+        <div class="profileSettings__inputWrapper">
+            <label class="profileSettings__inputLabel" for="mailBox">Почта</label>
+            <input class="profileSettings__input" type="text" size="40" id="mailBox" value={{email}}/>
+        </div>
+        <div class="profileSettings__inputWrapper">
+            <label class="profileSettings__inputLabel" for="phone">Телефон</label>
+            <input class="profileSettings__input" type="number" size="40" id="phone" value={{phone}}/>
+        </div>
+        <a href="../profileDescription/profileDescription.hbs">
+            <button class="button && profileSettings__button">Сохранить</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>
