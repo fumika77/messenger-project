@@ -38,7 +38,6 @@
     color: #FFFFFF;
 }
 
-
 .textLink{
     font-family: 'RobotoFlex', serif;
     font-style: normal;
@@ -49,6 +48,7 @@
     border-bottom: none;
     text-decoration: none;
 }
+
 .profileSettings__box{
     position: absolute;
     width: 755px;
@@ -63,7 +63,6 @@
     align-items: center;
 }
 
-
 .profileSettings__header{
     font-family: 'RobotoFlex', serif;
     font-style: normal;
@@ -73,8 +72,7 @@
     font-size: 22px;
 }
 
-
-.profileSettings__profileImg{
+.profileImg{
     position: absolute;
     width: 148px;
     height: 148px;
@@ -84,7 +82,6 @@
     top:20%;
 }
 
-
 .profileSettings__editImg{
     position: absolute;
     width: 32px;
@@ -93,23 +90,19 @@
     left: 56%;
 }
 
-
 .profileSettings__arrowImg{
     position: absolute;
     width: 32px;
     height: 35px;
 }
 
-
-.profileSettings__arrowLink{
+.arrowLink{
     align-self: flex-start;
 }
-
 
 .profileSettings__inputWrapper{
     margin:5px;
 }
-
 
 .profileSettings__formData{
     position: absolute;
@@ -119,8 +112,11 @@
     align-items: center;
 }
 
+.inputWrapper{
+    margin:5px;
+}
 
-.profileSettings__input{
+.input{
     width: 500px;
     height: 40px;
     outline: none;
@@ -128,8 +124,7 @@
     border-bottom: 1px solid #000000;
 }
 
-
-.profileSettings__inputLabel{
+.inputLabel{
     display: inline-block;
     font-family: 'RobotoFlex', serif;
     font-style: normal;
@@ -138,7 +133,6 @@
     line-height: 14px;
     text-align: right;
 }
-
 
 .profileSettings__button{
     position: static;

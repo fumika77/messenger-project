@@ -24,7 +24,7 @@
     font-size: 22px;
 }
 
-.profileDescription__profileImg{
+.profileImg{
     position: absolute;
     width: 148px;
     height: 148px;
@@ -38,7 +38,7 @@
     height: 35px;
 }
 
-.profileDescription__arrowLink{
+.arrowLink{
     align-self: flex-start;
 }
 .profileDescription__inputWrapper{
@@ -88,4 +88,26 @@
     align-items: flex-start;
     left: 10%;
     bottom: 10%;
+}
+
+.inputWrapper{
+    margin:5px;
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.inputLabel{
+    display: inline-block;
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
 }

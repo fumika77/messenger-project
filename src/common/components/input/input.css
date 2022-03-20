@@ -1,0 +1,21 @@
+.inputWrapper{
+    margin:5px;
+}
+
+.inputLabel{
+    display: inline-block;
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+}

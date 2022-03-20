@@ -38,7 +38,6 @@
     color: #FFFFFF;
 }
 
-
 .textLink{
     font-family: 'RobotoFlex', serif;
     font-style: normal;
@@ -49,6 +48,7 @@
     border-bottom: none;
     text-decoration: none;
 }
+
 .profileDescription__box{
     position: absolute;
     width: 755px;
@@ -63,7 +63,6 @@
     align-items: center;
 }
 
-
 .profileDescription__header{
     font-family: 'RobotoFlex', serif;
     font-style: normal;
@@ -73,8 +72,7 @@
     font-size: 22px;
 }
 
-
-.profileDescription__profileImg{
+.profileImg{
     position: absolute;
     width: 148px;
     height: 148px;
@@ -84,22 +82,18 @@
     border-radius: 100px;
 }
 
-
 .profileDescription__arrowImg{
     width: 32px;
     height: 35px;
 }
 
-
-.profileDescription__arrowLink{
+.arrowLink{
     align-self: flex-start;
 }
-
 
 .profileDescription__inputWrapper{
     margin:5px;
 }
-
 
 .profileDescription__formData{
     position: absolute;
@@ -109,7 +103,6 @@
     align-items: center;
 }
 
-
 .profileDescription__input{
     width: 500px;
     height: 40px;
@@ -118,11 +111,9 @@
     border-bottom: 1px solid #000000;
 }
 
-
 .profileDescription__input:disabled{
     background: #FCFCFC;
 }
-
 
 .profileDescription__inputLabel{
     display: inline-block;
@@ -134,13 +125,11 @@
     text-align: right;
 }
 
-
 .profileDescription__button{
     position: static;
     left: 0;
     margin-top: 20px;
 }
-
 
 .profileDescription__linkBox{
     position: absolute;
@@ -149,5 +138,27 @@
     align-items: flex-start;
     left: 10%;
     bottom: 10%;
+}
+
+.inputWrapper{
+    margin:5px;
+}
+
+.input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.inputLabel{
+    display: inline-block;
+    font-family: 'RobotoFlex', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
 }
 /*# sourceMappingURL=profileDescription.088372c0.css.map */
