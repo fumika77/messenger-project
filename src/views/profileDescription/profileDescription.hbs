@@ -5,28 +5,25 @@ second_name: Котиков
 login: archi
 email: kotikoff@kotomail.ru
 phone: 88888888
+title: User Description
 ---
-<html lang="en">
-<head>
-    <title>User Description</title>
-    <link rel="stylesheet" type="text/css" href="profileDescription.css"/>
-</head>
-<body>
-<div class="profileDescription__box">
-    {{> backArrow/backArrow href="../dialogs/dialogs.hbs"}}
+{{!< base/base}}
+
+<main>
+<div class="profile__box">
+    {{> backArrow/backArrow link="../dialogs/dialogs.hbs"}}
     {{> avatar/avatar}}
-    <h1 class="profileDescription__header">{{name}}</h1>
-    <div class="profileDescription__formData">
-        {{> input/input id="first_name" type="text" value=first_name label="Имя" disabled="disabled"}}
-        {{> input/input id="second_name" type="text" value=second_name label="Фамилия" disabled="disabled"}}
-        {{> input/input id="login" type="text" value=login label="Логин" disabled="disabled"}}
-        {{> input/input id="email" type="text" value=email label="Почта" disabled="disabled"}}
-        {{> input/input id="phone" type="number" value=phone label="Телефон" disabled="disabled"}}
+    <h1 class="profile__description__header && text">{{name}}</h1>
+    <div class="profile__description__formData">
+        {{> input/input id="first_name" type="text" value=first_name label="Имя" disabled="disabled" style="profile"}}
+        {{> input/input id="second_name" type="text" value=second_name label="Фамилия" disabled="disabled" style="profile"}}
+        {{> input/input id="login" type="text" value=login label="Логин" disabled="disabled" style="profile"}}
+        {{> input/input id="email" type="text" value=email label="Почта" disabled="disabled" style="profile"}}
+        {{> input/input id="phone" type="number" value=phone label="Телефон" disabled="disabled" style="profile"}}
     </div>
-    <div class="profileDescription__linkBox">
+    <div class="profile__description__linkBox">
         <a href="../profileSettings/profileSetting.hbs">Изменить данные</a>
         <a href="">Изменить пароль</a>
     </div>
 </div>
-</body>
-</html>
+</main>

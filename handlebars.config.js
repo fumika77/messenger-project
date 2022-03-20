@@ -1,4 +1,5 @@
 module.exports = {
   partials: 'src/common/components',
-  pages: 'src/views/*'
+  pages: 'src/views',
+  layouts: 'src/layouts'
 };
